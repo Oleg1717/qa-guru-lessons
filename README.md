@@ -1,18 +1,23 @@
-# qa-guru-lessons
+## qa-guru-lesson17
 
-## Lesson 5
-### Продолжаем разрабатывать автотесты. Больше возможностей.
-1. Добавляем в код PageObjects
-2. Генерация рандомных значений для тестов - RandomUtils / JavaFaker
-3. executeJavascript() - вызов javascript-кода из Selenide, делаем параметризированные тесты
-4. ElementsCollection - работаем с коллекцией элементов
+### REST API. Продолжаем изучать
+1. Практика. Декомпозируем UI-автотест в несколько API-автотестов.
+   Больше возможностей REST-assured
+2. Изучаем вспомогательные инструменты:
+- Postman,
+- Charles/Fiddler,
+- chrome dev tools (вкладка Network)
+3. Теория. Больше про REST API.
 
 ### ДЗ
-1. Возьмите ваш код написанный для формы в рамках ДЗ ко второму занятию https://demoqa.com/automation-practice-form
-2. Добавьте в ваш код PageObjects
-3. Добавьте в ваш код генерацию рандомных значений используя Java Faker
 
-В поле ответа приложите ссылку на ваш репозиторий в GitHub
+Сайт магазина http://demowebshop.tricentis.com/
 
-### Lesson branch
-https://github.com/Oleg1717/qa-guru-lessons/tree/lesson5
+Исследовать сайт магазина, автоматизировать проверку ui-взаимодействия по api (hазработать любой автотест)
+
+Например: сделать тест на добавление товара в корзину и проверить количество товара в корзине по апи
+
+
+В помощь - https://github.com/autotests-cloud/example_project
+
+В качестве ответа на задание приложить ссылку на репозиторий в GitHub
