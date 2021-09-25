@@ -1,5 +1,29 @@
 # QA.GURU LESSONS
 
+## Lessons list
+|Main lessons|Additional lessons|
+|----------------------------------------------------|----------------------------------------------------|
+|[1. Вводное занятие. Сразу в бой!](https://github.com/Oleg1717/qa-guru-lessons#lesson1)|[Профессионально работаем с IntelliJ IDEA Юрий Артамонов (JetBrains)]()|
+|[2. Погружаемся в инструментарий и библиотеки. Станислав Васенков. Дмитрий Тучс.](https://github.com/Oleg1717/qa-guru-lessons#lesson2)||  
+|[3. Основы Java. Дмитрий Тучс.](https://github.com/Oleg1717/qa-guru-lessons#lesson3)||
+|[4. Selenide #1. Алексей Виноградов.](https://github.com/Oleg1717/qa-guru-lessons#lesson-4)||
+|[5. Продолжаем разрабатывать автотесты. Больше возможностей.](https://github.com/Oleg1717/qa-guru-lessons#lesson-5)||  
+|[6. Allure Reports. Артём Ерошенко.](https://github.com/Oleg1717/qa-guru-lessons#lesson6)||
+|[7. Работаем с файлами.](https://github.com/Oleg1717/qa-guru-lessons#lesson7)||
+|[8. Git. Github. Погружаемся. Дмитрий Тучс.](https://github.com/Oleg1717/qa-guru-lessons#lesson8)||
+|[9. Jenkins. Создаем первую задачу.](https://github.com/Oleg1717/qa-guru-lessons#lesson9)||
+|[10. Управляем параметрами в коде и в Jenkins.](https://github.com/Oleg1717/qa-guru-lessons#lesson10)||
+|[11. Станислав Васенков. Телеграм-бот. Отправляем уведомления о результатах прохождении автотестов.](https://github.com/Oleg1717/qa-guru-lessons#lesson11)||
+|[12. Учимся быстро разрабатывать готовые проекты для тестовых заданий.](https://github.com/Oleg1717/qa-guru-lessons#lesson12)||
+|[13. Selenoid. Роман Орлов.](https://github.com/Oleg1717/qa-guru-lessons#lesson13)||
+|[14. Библиотека Owner. Артём Ерошенко.](https://github.com/Oleg1717/qa-guru-lessons#lesson14)||
+|[15. Selenide #2. Дмитрий Тучс.](https://github.com/Oleg1717/qa-guru-lessons#lesson15)||
+|[16. REST API. Пишем автотесты с Rest-assured.](https://github.com/Oleg1717/qa-guru-lessons#lesson16)||
+|[17. REST API. Продолжаем изучать.](https://github.com/Oleg1717/qa-guru-lessons#lesson17)||
+|[18. REST API. Продолжаем изучать.](https://github.com/Oleg1717/qa-guru-lessons#lesson18)||
+|[19. ](https://github.com/Oleg1717/qa-guru-lessons#lesson19)||
+|[20. Мобильная автоматизация #1. Разрабатываем автотесты с Browserstack.](https://github.com/Oleg1717/qa-guru-lessons#lesson20)||
+
 ## Lesson1
 ### Вводное занятие. Сразу в бой!
 1. Практика. Пишем первый автотест: Java / Gradle / JUnit5 / Selenide.
@@ -10,6 +34,16 @@
 3. Проект для нотификаций http://github.com/qa-guru/allure-notifications
 4. Запустите автотест  
 В поле ответа необходимо приложить скриншот пройденного автотеста.
+
+## Additional lesson 1
+### Профессионально работаем с IntelliJ IDEA Юрий Артамонов (JetBrains)
+1. Основы
+2. Git and Github
+3. Docker
+4. Базы данных
+5. HTTP Client
+6. Selenium
+7. BDD Support
 
 ## Lesson2
 ### Погружаемся в инструментарий и библиотеки. Станислав Васенков. Дмитрий Тучс
@@ -22,6 +56,25 @@
 2. Создайте новый проект для домашнего задания https://github.com/new
 3. Разработайте автотест на проверку формы https://demoqa.com/automation-practice-form
 4. Запушьте код в свой репозиторий и дайте на него ссылку в качестве ответа на домашнее задание
+
+## Lesson2
+### Основы Java. Дмитрий Тучс
+1) src - main / src - test
+2) Класс с точки зрения файлов
+3) Класс с точки зрения Java
+4) Метод main
+5) Данные в классах (class fields)
+6) Методы
+7) Наследование
+8) Статические данные и статические методы
+9) Возврат значения из метода
+10) Конструкторы
+11) Передача значений (по ссылке / по значению)
+12) Инкапсуляция (private public protected)
+### ДЗ
+1) Почитать по ссылкам и уложить у себя в голове;
+2) Создать свой вариант класса, описывающее состояние и простое поведение объекта (выбрать любой из окружающего мира);
+3) Показать через метод main: создание, работу с данными и методами объекта.
 
 ## Lesson 4
 ### Selenide #1. Алексей Виноградов
