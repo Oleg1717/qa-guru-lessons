@@ -316,9 +316,9 @@ https://github.com/Oleg1717/qa-guru-lessons/tree/lesson5
 ## Lesson 21
 ### Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android-устройства и на своем телефоне
 1. Настраиваем рабочее место:
-- Appium
-- Android Studio
-- Настраиваем переменные среды
+  - Appium
+  - Android Studio
+  - Настраиваем переменные среды
 2. Эмулируем Android устройство
 3. Подключаем свой телефон
 4. Практика. Разрабатываем автотесты с Appium.
@@ -326,17 +326,17 @@ https://github.com/Oleg1717/qa-guru-lessons/tree/lesson5
 ### ДЗ
 1. Установить android studio https://developer.android.com/studio
 2. Прописать path:
-- Windows:
-  - %ANDROID_HOME%\tools  
-  - %ANDROID_HOME%\tools\bin
-  - %ANDROID_HOME%\platform-tools  
-  - Одной строкой, можно скопировать и добавить в конец Path: ;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;%ANDROID_HOME%\platform-tools  
+  - Windows:
+    - %ANDROID_HOME%\tools  
+    - %ANDROID_HOME%\tools\bin
+    - %ANDROID_HOME%\platform-tools  
+    - Одной строкой, можно скопировать и добавить в конец Path: ;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;%ANDROID_HOME%\platform-tools  
 
 - Mac:
-    - $ANDROID_HOME/tools
-    - $ANDROID_HOME/tools/bin
-    - $ANDROID_HOME/platform-tools
-    - Одной строкой, можно скопировать и добавить в .bash_profile:  
+  - $ANDROID_HOME/tools
+  - $ANDROID_HOME/tools/bin
+  - $ANDROID_HOME/platform-tools
+  - Одной строкой, можно скопировать и добавить в .bash_profile:  
 export PATH=”${PATH}:/$ANDROID_HOME/tools:/$ANDROID_HOME/tools/bin:/$ANDROID_HOME/platform-tools”
 3. Установить appium desktop https://github.com/appium/appium-desktop
 4. В android studio -> SDK Manager скачать 11 андроид (если не скачан по умолчанию)
