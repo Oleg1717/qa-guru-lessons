@@ -23,6 +23,7 @@
 |[18. REST API. Продолжаем изучать.](#lesson-18)||
 |[19. SOAP API. Дмитрий Тучс](#lesson-19)||
 |[20. Мобильная автоматизация #1. Разрабатываем автотесты с Browserstack.](#lesson-20)||
+|[21. Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android-устройства и на своем телефоне.](#lesson-21)||
 
 ## Lesson 1
 ### Вводное занятие. Сразу в бой!
@@ -311,3 +312,39 @@ https://github.com/Oleg1717/qa-guru-lessons/tree/lesson5
 - Вынести данные (логин, пароль, урл браузерстека и т.д.) в .properties с owner
 - Сделать сборку в дженкинсе
 - Добавить проект в TestOps
+
+## Lesson 21
+### Мобильная автоматизация #2. Разрабатываем автотесты с эмулятором Android-устройства и на своем телефоне
+1. Настраиваем рабочее место:
+- Appium
+- Android Studio
+- Настраиваем переменные среды
+2. Эмулируем Android устройство
+3. Подключаем свой телефон
+4. Практика. Разрабатываем автотесты с Appium.
+5. Теория. Основы Appium.
+### ДЗ
+1. Установить android studio https://developer.android.com/studio
+2. Прописать path:
+- Windows:
+  - %ANDROID_HOME%\tools  
+  - %ANDROID_HOME%\tools\bin
+  - %ANDROID_HOME%\platform-tools  
+  - Одной строкой, можно скопировать и добавить в конец Path: ;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;%ANDROID_HOME%\platform-tools  
+
+- Mac:
+    - $ANDROID_HOME/tools
+    - $ANDROID_HOME/tools/bin
+    - $ANDROID_HOME/platform-tools
+    - Одной строкой, можно скопировать и добавить в .bash_profile:  
+export PATH=”${PATH}:/$ANDROID_HOME/tools:/$ANDROID_HOME/tools/bin:/$ANDROID_HOME/platform-tools”
+3. Установить appium desktop https://github.com/appium/appium-desktop
+4. В android studio -> SDK Manager скачать 11 андроид (если не скачан по умолчанию)
+5. В AVD Manager скачать образ Pixel 4 для 11 андроида (если не скачан по умолчанию)
+6. Запустить эмулятор телефона, опробовать кнопки и функционал
+7. Открыть Appium Desktop, запустить server, проконектиться к эмулятору
+8. Открыть в appium desktop инспектор, изучить его функционал, попробовать найти локатор
+9. Разработать автотест на getting started в приложении википедии - пройти по 4м экранам, на каждом сделать проверку
+10. Доработать возможность запуска на разных стендах (передать из командной строки -DdeviceHost=browserstack / selenoid / emulation / real
+
+Для каждого сделать драйвер и конфиг с owner
